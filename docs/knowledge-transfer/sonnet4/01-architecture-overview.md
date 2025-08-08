@@ -10,17 +10,17 @@ The OpenAI GPT-5 Music Visualizer is an Electron-based desktop application that 
 
 ```mermaid
 graph TD
-    A[Audio Input<br/>Files | Live | System Audio] --> B[Audio Engine<br/>Web Audio API]
-    B --> C[Feature Extraction<br/>FFT Analysis & Meyda]
-    C --> D[Instrument Classification<br/>Heuristic Analysis]
-    C --> E[Beat Detection<br/>Energy-based Algorithm]
-    D --> F[Visualization Engine<br/>Three.js Scene Management]
+    A["Audio Input<br/>Files • Live • System Audio"] --> B["Audio Engine<br/>Web Audio API"]
+    B --> C["Feature Extraction<br/>FFT Analysis & Meyda"]
+    C --> D["Instrument Classification<br/>Heuristic Analysis"]
+    C --> E["Beat Detection<br/>Energy-based Algorithm"]
+    D --> F["Visualization Engine<br/>Three.js Scene Management"]
     E --> F
-    F --> G[Visual Effects<br/>Crystal Sphere | Nebula | Aurora]
-    F --> H[Post-Processing<br/>Bloom | Effects Chain]
-    I[UI Controls<br/>React Components] --> F
+    F --> G["Visual Effects<br/>Crystal Sphere • Nebula • Aurora"]
+    F --> H["Post-Processing<br/>Bloom • Effects Chain"]
+    I["UI Controls<br/>React Components"] --> F
     I --> C
-    J[Electron Main Process<br/>File System | Permissions] --> K[Preload Bridge<br/>Secure IPC]
+    J["Electron Main Process<br/>File System • Permissions"] --> K["Preload Bridge<br/>Secure IPC"]
     K --> I
 ```
 
