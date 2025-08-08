@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Music Visualizer
+
+Music visualizer will be used to animate musical compositions.
+It should connect to OSx audio output or analyze wav files (whichever is more suitable, it is up to your call)
+It should be produce ethereal, psychedelic, cosmic images according to the music.
+If possible it should also show transparent figures/shadows/transparent playing different instruments according to the current instrument being played.
+Build electorn app using typescript, mocha and sinon, avoid using sinon-chain module
